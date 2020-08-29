@@ -18,7 +18,7 @@ duplicates = []  # Return the list of duplicates in this data structure
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
 
-# Using intersection to search for names that appear in oth lists and then appending
+# Using intersection to search for names that appear in both lists and then appending
 # those names to the empty duplicates list
 
 duplicate_names = set(names_1).intersection(names_2)
